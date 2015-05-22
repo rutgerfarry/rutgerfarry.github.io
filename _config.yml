@@ -1,0 +1,12 @@
+# Site settings
+title: Rutger Farry
+email: rutgerfarry@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Computer Science Student + Designer at Oregon State University.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://rutgerfarry.com" # the base hostname & protocol for your site
+twitter_username: rutgerfarry
+github_username:  rutgerfarry
+
+# Build settings
+markdown: kramdown
