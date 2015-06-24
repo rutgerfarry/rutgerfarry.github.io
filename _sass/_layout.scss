@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    border-top: 5px solid $brand-color;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -209,6 +209,14 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+
+    h1 {
+        font-size: 42px;
+
+        @include media-query($on-laptop) {
+            font-size: 36px;
+        }
+    }
 
     h2 {
         font-size: 32px;
