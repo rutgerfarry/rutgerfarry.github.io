@@ -52,18 +52,4 @@
 
   </div>
 
-  <script type="text/javascript">
-    var body = document.body,
-    html = document.documentElement;
-    var height = Math.max(body.scrollHeight, body.offsetHeight, 
-                          html.clientHeight, html.scrollHeight, 
-                          html.offsetHeight);
-
-    var bar = document.getElementById('bar');
-    window.addEventListener('scroll', function(event) {
-      var position = this.scrollY;
-      bar.style.backgroundPosition = '0% ' + (position / height) * 90 + '%';
-    })
-  </script>
-
 </footer>
