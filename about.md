@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm a sophomore at Oregon State University and mobile development intern at Jive Software this summer. Previously software lead at the [Oregon State VLSI Research Group](http://eecs.oregonstate.edu/research/vlsi/).
+I'm a sophomore at Oregon State University and mobile development intern at Jive Software. Previously student software lead at the [Oregon State VLSI Research Group](http://eecs.oregonstate.edu/research/vlsi/).
 
 Experiencing life is super important to me. I love running, snowboarding, and exploring near and far.
 
