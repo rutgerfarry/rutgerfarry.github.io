@@ -1,0 +1,11 @@
+a {
+    text-decoration: none;
+}
+
+.personal-links {
+    list-style: none;
+}
+
+.personal-links > li {
+    display: inline;
+}

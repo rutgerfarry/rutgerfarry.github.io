@@ -1,21 +1,63 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
-<div class="home">
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Rutger Farry</title>
+  <meta name="description" content="">
+  <meta name="author" content="Rutger Farry">
 
-  <h1 class="page-heading">Posts</h1>
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/main.css">
 
-</div>
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="one-half column" style="margin-top: 25%">
+        <h4>Rutger Farry</h4>
+        <strong>Developer / Designer</strong>
+        <p>
+          I like running and going on adventures. <br>
+          Cycling Club member <br>
+          App Club president <br>
+          Previously @ 
+          <a href="https://www.jivesoftware.com/">Jive Software</a> 
+          and
+          <a href="http://eecs.oregonstate.edu/research/vlsi/"> Oregon State VLSI</a> 
+          <br>
+        </p>
+        <ul class="personal-links">
+          <li><a href="https://www.dropbox.com/s/1uqjto4ul02r0l6/Résumé.pdf?dl=0">Résumé</a></li> / 
+          <li><a href="mailto:rutgerfarry@gmail.com">Email</a></li> / 
+          <li><a href="https://github.com/rutgerfarry">Github</a></li> / 
+          <li><a href="https://twitter.com/rutgerfarry">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
