@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Begin"
+date:   2017-05-11
+---
+
+Today marks the beginning of my journey into blogging. While I've kept a journal
+in the past, I figure most of what I write down isn't private and could
+potentially be useful to people.
+
+As my time at [Oregon State University](http://oregonstate.edu) comes to a
+close, I'm realizing there's still a lot of skills I'd like to learn. One
+of those skills is to become a writer. Not a professional writer, but someone
+who controls the English language well and is comfortable putting thoughts
+to paper. While I currently write a lot of technical documents for my senior
+project, they're pretty lifeless and not intended to be re-read. Keeping a
+blog will force me to polish my writing to the point that I'm comfortable with
+the entire Internet having access to it.
+
+Additionally, while I'm not opposed to working for a company, I hugely enjoy
+being in control of my own time. It's my intent after finishing college to see
+how long I can survive as a freelancer. This is sort of the ["millennial
+dream"](https://en.wikipedia.org/wiki/On_the_Road), and if I can make it work, I
+think my experiences would be worthwhile reading for others.
+
+Finally, I've been learning a lot of cool stuff right recently, from figuring
+out how to use [vim](https://en.wikipedia.org/wiki/Vim_(text_editor)) as my
+primary text-editor, to diving into Computer Science theory and using
+[Haskell](http://book.realworldhaskell.org/read/) in a side-project I intend to
+implement over the summer. (more about that later)
+
+My hope is that this blog will help me record what I learn and stay true to my
+goals. Expect book reviews, photography, thoughts, tutorials, rants. If you
+happen to find my posts interesting or learn something meanwhile, well that's
+just icing on the cake. :cake:
+
+Skål
