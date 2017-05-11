@@ -18,8 +18,11 @@ email: rutgerfarry@gmail.com
 description: >
   Rutger Farry's blog
 url: "http://rutgerfarry.com"
-twitter_username: rutgerfarry
 github_username:  rutgerfarry
+twitter_username: rutgerfarry
+instagram_username: rutgerfarry
+resume_url: "https://github.com/rutgerfarry/resume/raw/master/resume.pdf"
+google_analytics: UA-59005720-1
 
 # Build settings
 markdown: kramdown
