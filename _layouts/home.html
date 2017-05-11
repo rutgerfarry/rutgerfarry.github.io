@@ -3,10 +3,6 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1>Rutger Farry</h1>
-  <hr>
-
   <h2>About me</h2>
   <ul>
     <li>
@@ -17,7 +13,7 @@ layout: default
     </li>
     <li>
       OSU <strong>Cycling Club</strong> member.
-      <a href="http://nwcollegiatecycling.us/17SRoad.html">2017 Randall Fox Beaver Omnium</a> Race Director.
+      <a href="http://www.gazettetimes.com/news/local/osu-cycling-team-honors-fallen-member/article_6b64e4aa-e3f4-5e3b-8766-f5566b030ee0.html">2017 Randall Fox Beaver Omnium</a> Race Director.
     </li>
     <li>
       Student <strong>Software Engineer</strong> at the
@@ -61,22 +57,38 @@ layout: default
   </ul>
 
   <h2>Writings</h2>
-
-  {{ content }}
-
-  <ul class="post-list">
+  <ul>
     {% for post in site.posts %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
+        <span>{{ post.date | date: date_format }}</span> - 
+        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
       </li>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  <h2>Resume and Social Media</h2>
+    <table>
+      <tr>
+        <td>résumé</td>
+        <td><a href="https://github.com/rutgerfarry/resume/raw/master/resume.pdf">pdf</a></td>
+      </tr>
+      <tr>
+        <td>github</td>
+        <td><a href="https://github.com/rutgerfarry">@rutgerfarry</a></td>
+      </tr>
+      <tr>
+        <td>email</td>
+        <td><a href="mailto:rutgerfarry@gmail.com">rutgerfarry@gmail.com</a></td>
+      </tr>
+      <tr>
+        <td>twitter</td>
+        <td><a href="https://twitter.com/rutgerfarry">@rutgerfarry</a></td>
+      </tr>
+      <tr>
+        <td>instagram</td>
+        <td><a href="https://instagram.com/rutgerfarry/">@rutgerfarry</a></td>
+      </tr>
+    </table>
 
 </div>
