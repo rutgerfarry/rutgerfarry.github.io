@@ -1,7 +1,7 @@
 title: Rutger Farry
 email: rutgerfarry@gmail.com
 description: >
-  Rutger Farry's blog
+  "Rutger Farry's blog"
 url: "http://rutgerfarry.com"
 github_username:  rutgerfarry
 twitter_username: rutgerfarry
@@ -13,6 +13,7 @@ google_analytics: UA-59005720-1
 markdown: kramdown
 gems:
   - jekyll-feed
+  - jemoji
 exclude:
   - Gemfile
   - Gemfile.lock
