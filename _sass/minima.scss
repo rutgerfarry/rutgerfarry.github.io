@@ -1,5 +1,13 @@
-@charset "utf-8";
+/*
+ * Variables
+ */
+$text-color: #555;
+$dark-text-color: #333;
+$accent-color: #003FFF;
 
+/*
+ * Rules
+ */
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -9,7 +17,7 @@ body {
   margin: 0 auto;
   max-width: 50em;
   font-family: "Helvetica", "Arial", sans-serif;
-  color: #555;
+  color: $text-color;
   font-size: 1em;
   line-height: 1.5;
   padding: 4em 1em;
@@ -18,10 +26,11 @@ body {
 h1,
 h2,
 strong {
-  color: #333;
+  color: $dark-text-color;
 }
 
-a, a:visited {
+a,
+a:visited {
   color: #003FFF;
   text-decoration: none;
 }
@@ -30,13 +39,24 @@ a:hover {
   text-decoration: underline;
 }
 
-.logo,
-.logo:visited,
-.logo:hover {
-  color: #333;
+.header-logo,
+.header-logo:visited,
+.header-logo:hover {
+  color: $dark-text-color;
   text-decoration: none;
 }
 
+.footer-logo {
+  margin-top: 2em;
+  text-align: center;
+
+  a,
+  a:visited,
+  a:hover {
+    color: $text-color;
+    text-decoration: none;
+  }
+}
 
 /*
  * Remove text-shadow in selection highlight:
