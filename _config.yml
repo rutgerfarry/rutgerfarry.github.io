@@ -9,6 +9,13 @@ instagram_username: rutgerfarry
 resume_url: "https://github.com/rutgerfarry/resume/raw/master/resume.pdf"
 google_analytics: UA-59005720-1
 
+# Assign front matter to all images
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
 # Build settings
 markdown: kramdown
 gems:
